@@ -7,7 +7,9 @@ upper = int(input('enter the upper bound'))
 
 x= random.randint(lower,upper)
 
-print('you have only' ,round(math.log(upper - lower + 1,2)),'try')
+maths = round(math.log(upper - lower + 1,2))
+
+print(f'you have only {maths} try')
 
 count = 0
 
